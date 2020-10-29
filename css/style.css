@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h2{
+	font-size: 30px;
+	color: #1c2b2d;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+header{
+	height: 100px;
+	background-color: blue;
+
+}
+header h1{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+#services{
+	border:5px solid orange;
+	overflow: hidden;
+	padding: 10px;
+	margin-top: 30px;
+}
+.left-service{
+	width: 45%;
+	float: left;
+	background-color: red;
+	padding: 30px 20px;
+	
+}
+.right-service{
+	width: 45%;
+	float: right;
+	background-color: green;
+	padding: 30px 20px;
+}
+.left-service h2,.right-service h2{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.left-service p,.right-service p{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+
+/*about section*/
+#about{
+	border: 5px solid #ff414d;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.about-item{
+	color: #fff;
+	background-color: yellow;
+	padding: 10px;
+	width: 30%;
+	float: left;
+	margin: 10px;
+}
+.about-item h2{
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.about-item p{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+
+/*contact section*/
+#contact{
+	overflow: hidden;
+	margin-top: 30px;
+	border: 5px solid #01c5c4;
+}
+.contact-left{
+	width: 49%;
+	float: left;
+	border: 5px solid red;
+}
+.contact-items{
+	height: 100px;
+	margin: 10px;
+	background-color: #6a097d;
+	width: 30%;
+	float: left;
+}
+.contact-right{
+	width: 49%;
+	float: right;
+	border: 5px solid green;
+}
+footer{
+	height: 100px;
+	background-color: #14274e;
+	margin-top: 30px;
+}
+footer h1{
+	padding-top: 20px;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
